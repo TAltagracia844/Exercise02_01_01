@@ -12,25 +12,26 @@
    </h1> 
    <p>
        The php code was rendered with php version
-       <? php
+       <?php
+    //    Tells our web browser that we want to insert a diagram showing us what php version we are on 
        echo phpversion();
        ?>
    </p>
    <p>
        The php code was rendered with zend engine version
-       <? php
+       <?php
        echo zend_version();
        ?>
    </p>
    <p>
       PHP's default MINE type is
-       <? php
+       <?php
        echo ini_get("default_minetype");
        ?>
    </p>
    <p>
       The maximum allowable execution time of a PHP Script is
-       <? php
+       <?php
        echo ini_get("max_execution_time");
        ?>
    </p>
