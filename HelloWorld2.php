@@ -21,7 +21,7 @@ echo "The $worldVar is", number_format(WORLD_INFO, 2) ,"miles form the $sunVar.<
 echo "Hello ", $sunVar, "!<br>";
 echo "The $sunVar's core temperture is approx. ", SUN_INFO ," degrees Fahreheit.<br>";
 echo "Hello ", $moonVar, "!<br>";
-echo " The $moonVar is ", number_format(MOON_INFO, 0) ,"miles in diameter.</p>";
+echo "The $moonVar is ", number_format(MOON_INFO, 0) ,"miles in diameter.</p>";
 
 // echo "This is a {$moonVar}embedded in double quotes.";
 // echo "This is a $moonVarembedded in double quotes.";
