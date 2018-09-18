@@ -11,10 +11,16 @@
     <?php
     $intVariable = 75;
     $result = "";
-    ($intVariable > 100) ? $result = '$intVariable is greater tha 100':
+    // ($intVariable > 100) ? $result = '$intVariable is greater than 100':
+    // $result = '$intVariable is less than or equal 100';
+    echo "<h2>Conditional Script </h2>";
+if($intVariable > 100){
+    $result = '$intVariable is greater than 100';
+}
+else{
     $result = '$intVariable is less than or equal 100';
-    echo '<h3>$result:' . "$result</h3>";
-
+}
+echo '<h3> $result:'." $result </h3>";
     ?>
 </body>
 </html>
