@@ -10,10 +10,15 @@
 <body>
     <?php 
     echo"<h2>Is odd</h2>";
+    // Variable start the list
 $num = 0;
+//Conditional that will only count 100 numbers 
 while ($num <= 100){
+    //Increases the number by one 
     ++$num;
     if( $num % 2 == 1){
+        //will only list numbers that have a remainder of 1 when divide by 2
+    
         echo "$num <br>";
     }
     }

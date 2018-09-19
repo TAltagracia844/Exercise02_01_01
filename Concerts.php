@@ -32,6 +32,6 @@
    var_dump($concerts);
     echo "</pre>";
 
-    ?> <
-/body> <
-/html>
+    ?> 
+    </body> 
+</html>

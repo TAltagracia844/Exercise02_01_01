@@ -14,6 +14,7 @@
     // ($intVariable > 100) ? $result = '$intVariable is greater than 100':
     // $result = '$intVariable is less than or equal 100';
     echo "<h2>Conditional Script </h2>";
+    //if the given value in the variable is equal to the conditional then it will display a message
 if($intVariable > 100){
     $result = '$intVariable is greater than 100';
 }
